@@ -1,0 +1,8 @@
+When using this package cite:
+D. Chen and J. D. Storey. 2024. "Coancestry superposed on admixed populations yields measures of relatedness at individual-level resolution." bioRxiv doi:10.1101/2024.12.29.630632.
+
+When using `sHWE` also cite:
+W. Hao and J. D. Storey. 2019. "Extending tests of Hardy–Weinberg Equilibrium to structured populations." Genetics, 213(3):759-770. doi: 10.1534/genetics.119.302370.
+
+When using `est_p_indiv` and `factor_p_indiv` also cite:
+I. Cabreros and J. D. Storey. 2019. "A likelihood-free estimator of population structure bridging admixture models and principal components analysis." Genetics, 212(4):1009-1029. doi: 10.1534/genetics.119.302159.

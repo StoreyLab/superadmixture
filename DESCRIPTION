@@ -1,0 +1,46 @@
+Package: superadmixture
+Title: Inference of Population Structure by Super-admixture Framework  
+Version: 0.1.0
+Authors@R: c(person(given = "Danfeng", family = "Chen", role = c("aut", "cre"), email = "danfengc@princeton.edu", comment = c(ORCID = "0000-0002-4489-0485")), person(given = "John D.", family = "Storey", role = c("aut"), email = "jstorey@princeton.edu", comment = c(ORCID = "0000-0001-5992-402X")))
+Maintainer: Danfeng Chen <danfengc@princton.edu>
+Description: This package provides functions for inference of population coancestry and simulating genotypes according to the super-admixture framework.  It also has functions for conducting the structured Hardy-Weinberg equilibrium test and estimating admixture proportions using the ALStructure algorithm.
+License: GPL (>= 3)
+Imports: 
+    bnpsd,
+    corrplot,
+    cubature,
+    dplyr,
+    grDevices,
+    magrittr,
+    MASS,
+    Matrix,
+    mvtnorm,
+    parallel,
+    popkin,
+    purrr,
+    rARPACK,
+    stats,
+    tibble,
+    tidyr,
+    tidytree
+Suggests: 
+    genio,
+    ggplot2,
+    ggtext,
+    ggtree,
+    treeio,
+    knitr,
+    lfa,
+    RColorBrewer,
+    readr,
+    rmarkdown,
+    svd,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+VignetteBuilder: knitr
